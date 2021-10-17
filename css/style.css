@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* start all element*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+/* end all element*/
+/* start html tag style*/
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+/* end html tag style*/
+/* start body tag style*/
+body {
+  min-height: 1000vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+/* body body tag style*/
+
+/*# sourceMappingURL=style.css.map */
