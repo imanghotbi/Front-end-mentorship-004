@@ -19,6 +19,7 @@
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;
+    font-family: "Roboto";
 }
 /* end html tag style*/ 
 /* start body tag style*/
@@ -27,5 +28,102 @@ body{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    background-color: $white100;
 }
 /* body body tag style*/
+nav{
+    width: 85%;
+    height: 1000px;
+    margin-top: 50px;
+    background-color: $pink;
+    border:1px solid $pink;
+    background-image: url("../images/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .title-contianer{
+        margin: auto 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        h2{
+            width: 15%;
+            font-size: 3rem;
+        }
+        .title-list{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            &__item{
+                width: auto;
+                height: auto;
+                list-style-type: none;
+                font-size: 1.2rem;
+                font-weight: 500;
+                margin: 0 25px;
+                padding:5px;
+                
+            }
+        }
+        .title-icon{
+            width: 15%;
+            display: flex;
+            justify-content: flex-end;
+            &__item{
+                width: auto;
+                list-style-type: none;
+                font-size: 1.2rem;
+                color: $light-red;
+                margin: 10px;
+            }
+        }
+        
+    }
+    h1{
+        display: block;
+        font-size: 7rem;
+        color:$brown;
+        text-align: center;
+        margin: 10px 100px;
+        padding: 20px;
+    }
+    main{
+        .search-contianer{
+            width: 25%;
+            height: auto;
+            margin:85px 75px;
+            padding: 10px;
+            border: 1px solid red;
+            .search-text{
+                margin: 13px;
+                font-weight: bolder;
+                font-size: 1.2rem;
+                line-height: 14px;
+                color:$brown;
+            }
+            div{
+                width: 250px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                margin: 20px 8px;
+                border: 1px solid red;
+                background-color: $white;
+                input{
+                    width: 200px;
+                    padding:5px;
+                    font-size: 1.3rem;
+                    border:none;
+                    outline:none;
+                }
+                .search-btn{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+
+        
+    }
+}

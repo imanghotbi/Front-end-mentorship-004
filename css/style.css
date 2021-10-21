@@ -12,6 +12,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  font-family: "Roboto";
 }
 
 /* end html tag style*/
@@ -21,8 +22,99 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  background-color: #dee1e7;
 }
 
 /* body body tag style*/
+nav {
+  width: 85%;
+  height: 1000px;
+  margin-top: 50px;
+  background-color: #f3d6c8;
+  border: 1px solid #f3d6c8;
+  background-image: url("../images/image1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+nav .title-contianer {
+  margin: auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+nav .title-contianer h2 {
+  width: 15%;
+  font-size: 3rem;
+}
+nav .title-contianer .title-list {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+nav .title-contianer .title-list__item {
+  width: auto;
+  height: auto;
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 25px;
+  padding: 5px;
+}
+nav .title-contianer .title-icon {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav .title-contianer .title-icon__item {
+  width: auto;
+  list-style-type: none;
+  font-size: 1.2rem;
+  color: #eb4d4b;
+  margin: 10px;
+}
+nav h1 {
+  display: block;
+  font-size: 7rem;
+  color: #463433;
+  text-align: center;
+  margin: 10px 100px;
+  padding: 20px;
+}
+nav main .search-contianer {
+  width: 25%;
+  height: auto;
+  margin: 85px 75px;
+  padding: 10px;
+  border: 1px solid red;
+}
+nav main .search-contianer .search-text {
+  margin: 13px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  line-height: 14px;
+  color: #463433;
+}
+nav main .search-contianer div {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 20px 8px;
+  border: 1px solid red;
+  background-color: #f5f6fa;
+}
+nav main .search-contianer div input {
+  width: 200px;
+  padding: 5px;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+}
+nav main .search-contianer div .search-btn {
+  width: 30px;
+  height: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */
