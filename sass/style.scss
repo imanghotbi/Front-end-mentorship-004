@@ -144,7 +144,7 @@ nav{
 /* end nav tag style*/
 .main{
     width: 85%;
-    height: 2000px;
+    height: 3000px;
     background-color: $white;
     padding:0 100px;
     &__title{
@@ -164,12 +164,144 @@ nav{
             list-style: none;
         }
     }
-    section{
-        
-        height: auto;
-        img{
-            width: 400px;
-        };
+    .cards-contianer{
+        width: 100%;
+        display: flex;
+        margin:70px 0;
+        column-gap: 100px;
+        .card-one{
+            width: 50%;
+            height: auto;
+            padding: 5px;
+            .card-title{
+                font-size: 5rem;
+                color: $brown;
+                margin-bottom: 10px;
+                text-transform: none;
+            }
+            .card-text-contianer{
+                width: 500px;
+                .card-text{
+                    font-size: 1.5rem;
+                    color: $brown;
+                }
+            }
+            .card-btn{
+                width: 180px;
+                height: 35px;
+                background-color: $brown;
+                color: $white;
+                border: none;
+                outline: none;
+                margin: 50px 0;
+            }
+            img{
+                width: 550px;
+                height: 650px;
+                display: block;
+            };
+        }
+        .card-two{
+            width: 50%;
+            height: auto;
+            padding: 5px;
+            img{
+                width: 550px;
+                height: 650px;
+                display: block;
+            };
+            p{
+                margin: 10px 0;
+                line-height: 25px;
+                font-size: 1.2rem;
+            }
+            .rd-btn{
+                width: 180px;
+                height: 35px;
+                background-color: $brown;
+                color: $white;
+                border: none;
+                outline: none;
+                margin: 20px 0;
+            }
+        }
     }
-        
+    .product-title{
+        font-size: 5rem;
+        color:$brown;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+    .product-text{
+        text-align: center;
+    }
+    .card{
+        width: 50%;
+        height: auto;
+        padding: 5px;
+        img{
+            width: 550px;
+            height: 600px;
+            display: block;
+        }
+        .card-title{
+            font-size: 4rem;
+            color: $brown;
+            margin:12px 0;
+            text-transform: none;
+        }
+        p{
+            margin: 10px 0;
+            line-height: 25px;
+            font-size: 1.2rem;
+        }
+        .title-list{
+            width: 100%;
+            display: flex;
+            column-gap:135px;
+            .title-item{
+                width: auto;
+                list-style: none;
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+                h2{
+                    width: auto;
+                    color: $blue;
+                    font-size: 2rem;
+                    margin-bottom: 2px;
+                }
+                span{
+                    width: 90px;
+                    text-align: center;
+                    border-top: 3px solid $brown;
+                    display: block;
+                    padding: 5px;
+                    font-size: 1rem;
+                }
+            }
+            
+        }
+        .buy-btn{
+            width: 150px;
+            height: 35px;
+            background-color: $brown;
+            color: $white;
+            border: none;
+            outline: none;
+            margin-top:30px;
+            margin-right: 30px;
+
+        }
+        .add-btn{
+            width: 150px;
+            height: 35px;
+            background-color:$white;
+            border: 1px solid $brown;
+            color: $brown;
+            outline: none;
+            margin-top: 30px;
+        }
+    }
 }
